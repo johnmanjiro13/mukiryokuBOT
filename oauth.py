@@ -11,5 +11,4 @@ def create_twitter_api():
     auth.set_access_token(access_token, access_secret)
 
     api = tweepy.API(auth)
-
-    api.update_status("なぁなぁ佐古さん。望遠鏡、使ってみてええ？ (榎町鈴乃/Normalize Human Communication)")
+    return api
