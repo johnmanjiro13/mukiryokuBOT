@@ -16,5 +16,5 @@ class SendSlack():
             'as_user': False
         }
         headers = {'content-type': 'application/x-www-form-urlencoded'}
-        url = os.getenv("SLACK_MUKIRYOKU_ENDPOINT")
+        url = os.getenv('SLACK_MUKIRYOKU_ENDPOINT')
         requests.post(url, headers=headers, data=post_data)

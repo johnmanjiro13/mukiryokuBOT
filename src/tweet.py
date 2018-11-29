@@ -15,7 +15,7 @@ def post_speech():
         api.update_status(speech)
     except TweepError as e:
         message = "<!channel> mukiryokuBOT raised Error\n" + e.reason
-        service = SendSlack(channel_id=os.getenv("SLACK_MUKIRYOKU_CHANNEL"))
+        service = SendSlack(channel_id=os.getenv('SLACK_MUKIRYOKU_CHANNEL'))
         service.post_slack_message(message, 'mukiryokuBOT')
 
 
