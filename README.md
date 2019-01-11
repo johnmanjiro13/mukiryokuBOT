@@ -1,5 +1,5 @@
 # mukiryokuBOT
-This is mukiryokuBOT
+This is mukiryokuBOT with Python
 
 from:mukiryokuBOT since:2013-03-01 until:2013-04-28
 
